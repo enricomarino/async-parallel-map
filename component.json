@@ -1,0 +1,14 @@
+{
+  "name": "parallel-map",
+  "repo": "component-async/parallel-map",
+  "version": "0.2.0",
+  "description": "async parallel map",
+  "keywords": [],
+  "scripts": ["index.js"],
+  "dependencies": {
+  },
+  "development": {
+    "component/assert"
+  },
+  "license": "MIT"
+}
