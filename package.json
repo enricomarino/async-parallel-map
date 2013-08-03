@@ -1,5 +1,5 @@
 {
-  "name": "parallel-map",
+  "name": "async-parallel-map",
   "description": "async parallel map",
   "version": "0.2.0",
   "author": {
@@ -7,10 +7,10 @@
     "url": "http://onirame.com"
   },
   "main": "index.js",
-  "homepage": "https://github.com/component-async/parallel-map",
+  "homepage": "https://github.com/enricomarino/async-parallel-map",
   "repository": {
     "type": "git",
-    "url": "git://github.com/component-async/parallel-map.git"
+    "url": "git://github.com/enricomarino/async-parallel-map.git"
   },
   "main": "index.js",
   "engines": {
