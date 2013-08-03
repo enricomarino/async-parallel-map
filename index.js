@@ -1,17 +1,11 @@
-
-/* !
- * parallel-map
+/**!
+ * async-parallel-map
  * async parallel map
  *
  * @copyright 2013 Enrico Marino
  * @license MIT
  */
 
-/*
- * Expose `parallel_map`
- */
-
-module.exports = parallel_map;
 
 /**
  * Map 'iterator' to each item in 'array' in parallel
@@ -22,8 +16,8 @@ module.exports = parallel_map;
  * @param {Function} callback callback
  * @api public
  */
-
-function parallel_map (array, iterator, callback) {
+ 
+module.exports = function (array, iterator, callback) {
   var results = [];
   var completed = 0;
   var len = array.length;
@@ -50,4 +44,4 @@ function parallel_map (array, iterator, callback) {
   for (i = 0; i < len; i += 1) {
     iterate(array[i], i);
   }
-}
+};
