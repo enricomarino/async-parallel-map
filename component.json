@@ -1,6 +1,6 @@
 {
-  "name": "parallel-map",
-  "repo": "component-async/parallel-map",
+  "name": "async-parallel-map",
+  "repo": "enricomarino/async-parallel-map",
   "version": "0.2.0",
   "description": "async parallel map",
   "keywords": [],
