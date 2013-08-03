@@ -1,10 +1,10 @@
-# parallel-map
+# async-parallel-map
 
 async parallel map
 
 ## Installation
 
-    $ component install component-async/parallel-map
+    $ component install enricomarino/async-parallel-map
 
 ## License
 
