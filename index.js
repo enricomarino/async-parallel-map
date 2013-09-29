@@ -1,12 +1,3 @@
-/**!
- * async-parallel-map
- * async parallel map
- *
- * @copyright 2013 Enrico Marino
- * @license MIT
- */
-
-
 /**
  * Map 'iterator' to each item in 'array' in parallel
  * and call 'callback' when done
