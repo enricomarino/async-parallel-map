@@ -28,11 +28,11 @@ module.exports = function (array, iterator, callback) {
     }
   }
 
-  function iterate (value, index) {
+  function iterate (value) {
     iterator(value, complete);
   }
 
   for (i = 0; i < len; i += 1) {
-    iterate(array[i], i);
+    iterate(array[i]);
   }
 };
